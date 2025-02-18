@@ -1,9 +1,15 @@
 Open irb, and add those class
 # Example Usage
+```sh
 isbn = ISBN13.new("978014300723")
 # -----------
 puts isbn.full_isbn # Output: 9780143007234
-
+```
+# Rspec testing
+```sh
+gem install rspec
+rspec isbn13_spec.rb
+```
 # [ answer no 2 What Creates Good, Easy-to-Maintain Code? ] 
 
 
